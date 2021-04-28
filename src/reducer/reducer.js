@@ -2,8 +2,6 @@ import {combineReducers} from "redux";
 
 const data = [];
 const todoReducer = (state = [], action) => {
-  // console.log(state);
-  // console.log(action);
   if (!action.data) {
     return state
   }
